@@ -1,3 +1,3 @@
 #igti
 
-Apresentação do primeiro projeto do Bootcamp Fullstack do IGTI.
+Programa de calculadora e escolha de cores RBG, baseado na movimentação dos inputs.

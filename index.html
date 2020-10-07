@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Color Calculator RGB</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-column">
+            <h1 class="titulo">Color Calculator RGB</h1>
+            <div class="box" id="box"></div>
+            <ul>
+                <li class="flex-row">
+                    <h1 class="label">(R) Vermelho:</h1>
+                    <input
+                        class="range"
+                        type="range"
+                        min="0"
+                        max="255"
+                        value="128"
+                        id="rangeRed">
+
+                    <input
+                        type="number"
+                        disabled
+                        min="0"
+                        max="255"
+                        value="128"
+                        id="inputRed">
+                </li>
+
+                <li class="flex-row">
+                    <h1 class="label">(G) Verde:</h1>
+                    <input
+                        class="range"
+                        type="range"
+                        min="0"
+                        max="255"
+                        value="128"
+                        id="rangeGreen">
+
+                    <input
+                        type="number"
+                        disabled
+                        min="0"
+                        max="255"
+                        value="128"
+                        id="inputGreen">
+                </li>
+
+                <li class="flex-row">
+                    <h1 class="label">(B) Azul:</h1>
+                    <input
+                        class="range"
+                        type="range"
+                        min="0"
+                        max="255"
+                        value="128"
+                        id="rangeBlue">
+
+                    <input
+                        type="number"
+                        disabled
+                        min="0"
+                        max="255"
+                        value="128"
+                        id="inputBlue">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
